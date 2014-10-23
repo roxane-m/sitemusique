@@ -6,8 +6,17 @@ img{
 }
 
 
-nav {
+.navbar {
   background-color: #DC2961;
+}
+#mainnav.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: #DC2961;
+	color:#F4F4F4;
+}
+
+#mainnav.navbar-default .navbar-nav>li>a{
+	background-color: #DC2961;
+	color: #F4F4F4;
 }
 
 nav ul {
@@ -43,6 +52,10 @@ body{
 
 }
 
+.titre-intro{
+	padding: 75px;
+}
+
 .intro{
 	margin-bottom: 5px;
 	margin-top: 15px;
@@ -71,10 +84,16 @@ body{
 
 }
 
+.titre-jouer{
+	background-color: #8E8E8E;
+	color: #252324;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 42px;
+}
+
 
 .acoustique{
 	background-color: #8B3951;
-	height: 375px;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-bottom: 25px;
@@ -85,7 +104,6 @@ body{
 .cover{
 	background-color: #8E8E8E;
 	clear: both;
-	height: 375px;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-bottom: 25px;
@@ -94,7 +112,15 @@ body{
 
 .instrumental{
 	background-color: #8B3951;
-	height: 375px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+
+.jouer{
+	background-color: #8E8E8E;
+	clear: both;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-bottom: 25px;
@@ -142,6 +168,11 @@ body{
 	width: 400px;
 }
 
+#micro{
+	font-size: 75px;
+	background-color: #8E8E8E;
+	border: none;
+}
 
 footer {
 	background-color: #DC2961;
@@ -162,6 +193,47 @@ a:active{
 #carousel-example-generic{
 	width: 401px;
 	margin: auto;
+}
+
+
+.modal-body{
+	background-color: #8B3951;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+
+#envoyer{
+	background-color: #8B3951;
+	color: white;
+	border: none;
+}
+
+#fermer{
+	background-color: #8B3951;
+	color: white;
+	border: none;
+}
+
+.legend{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+label{
+	width: 110px;
+}
+input{
+	color: black;
+}
+
+textarea{
+	width: 435px;
+	height: 57px;
+}
+
+form{
+	font-size: 12px;
 }
 
 
@@ -273,9 +345,6 @@ a:active{
 		/*text-align: center;*/ /*centrer*/
 		float:none;
 	}
-	.acoustique{
-		height: 312px;
-	}
 
 
 	.cover h2{
@@ -294,9 +363,7 @@ a:active{
 		/*text-align: center;*/ /*centrer*/
 		float:none;
 	}
-	.cover {
-		height: 312px;
-	}
+
 
 	.instrumental h2 {
 		font-size: 22px;
@@ -313,12 +380,8 @@ a:active{
 		margin: 0 auto;
 		/*text-align: center;*/ /*centrer*/
 		float:none;
-	}
-	.instrumental {
-		height: 312px;
-	}
 }
-}
+
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
  	
 }
