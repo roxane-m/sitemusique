@@ -20,7 +20,6 @@ img{
 }
 
 nav ul {
- padding: 10px;
  text-align: center;
 }
 
@@ -38,6 +37,7 @@ nav ul li a {
   font-family: 'Dancing Script', cursive;
   font-size: 22px;
 }
+
 
 body{
 	margin: 0;
@@ -174,9 +174,11 @@ body{
 	border: none;
 }
 
+
 footer {
 	background-color: #DC2961;
 	font-size: 30px;
+	text-align: center;
 }
 
 
@@ -186,6 +188,7 @@ a:active{
 
 #sociaux a{
 	color:black;
+	padding:5px;
 }
 
 
@@ -237,7 +240,10 @@ form{
 }
 
 
-
+#contact{
+	font-size: 14px;
+	text-align: center;
+}
 
 
 @media (max-width:320px) {  /*small mobile*/
